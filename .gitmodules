@@ -1,0 +1,3 @@
+[submodule "ubuntu"]
+	path = ubuntu
+	url = git@github.com:tgotwig/ubuntu.git
