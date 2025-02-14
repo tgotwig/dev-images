@@ -1,3 +1,6 @@
 [submodule "ubuntu"]
 	path = ubuntu
 	url = git@github.com:tgotwig/ubuntu.git
+[submodule "alpine"]
+	path = alpine
+	url = git@github.com:tgotwig/alpine.git
