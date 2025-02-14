@@ -4,3 +4,6 @@
 [submodule "alpine"]
 	path = alpine
 	url = git@github.com:tgotwig/alpine.git
+[submodule "node"]
+	path = node
+	url = git@github.com:tgotwig/node.git
