@@ -4,6 +4,23 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 
 <img src="https://github.com/user-attachments/assets/16c25a38-4b6f-47ac-8fc5-5faa28ce573e" width="300">
 
+<details>
+  <summary>📃 [WiP] List of commands which should be everywhere, but currently not (click me)</summary>
+
+  | Command | Note | Sample |
+  | :-- | :-- | :-- |
+  | asdf | For installing programming languages. |  |
+  | curl |  |  |
+  | fish | Replacement for bash with lots of auto-completions.  |  |
+  | ip | For getting host IPs. | `ip a` |
+  | nc | For chatting or to check if port is open. | `nc -zv <host> <port>` |
+  | nmap |  |  |
+  | nslookup | For getting IPs from dns name. | `nslookup github.com <alt-dns-server>` |
+  | ping |  |  |
+  | starship |  For making the terminal prompt pretty 😊 |  |
+  | z | For jumping into previously visited folders. | `z <part-of-folders-path>` |
+</details>
+
 | Image                                         | OS  | Additions | CMD |
 | :--                                           | :-- | :--       | --- |
 | [alpine](https://github.com/tgotwig/alpine)   | alpine 3.21 | curl, fish, starship, zoxide | docker run -it --rm tgotwig/alpine |
