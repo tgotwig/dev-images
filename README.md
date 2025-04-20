@@ -4,11 +4,11 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 
 <img src="https://github.com/user-attachments/assets/16c25a38-4b6f-47ac-8fc5-5faa28ce573e" width="300">
 
-| Image                                               | OS  | Additions | CMD |
-| :--                                                 | :-- | :--       | --- |
-| [alpine](https://github.com/tgotwig/alpine)         | alpine 3.21 | curl, fish, starship, zoxide | docker run -it --rm tgotwig/alpine |
-| [node](https://github.com/tgotwig/node) 23.5.0      | alpine 3.21 | fish, starship, zoxide | docker run -it --rm tgotwig/node fish |
-| [ubuntu](https://github.com/tgotwig/ubuntu)         | ubuntu 24.04 | curl, dnsutils (nslookup), fish, iproute2 (ip), nc, nmap, ping, starship, z | docker run -it --rm tgotwig/ubuntu |
+| Image                                               | OS  | CMD |
+| :--                                                 | :-- | --- |
+| [alpine](https://github.com/tgotwig/alpine)         | alpine 3.21 | docker run -it --rm tgotwig/alpine |
+| [node](https://github.com/tgotwig/node) 23.5.0      | alpine 3.21 | docker run -it --rm tgotwig/node fish |
+| [ubuntu](https://github.com/tgotwig/ubuntu)         | ubuntu 24.04 | docker run -it --rm tgotwig/ubuntu |
 
 <details>
   <summary>📃 [WiP] List of commands which should be everywhere, but currently not (click me)</summary>
