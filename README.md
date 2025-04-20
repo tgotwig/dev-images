@@ -11,7 +11,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 | [ubuntu](https://github.com/tgotwig/ubuntu)         | ubuntu 24.04 | docker run -it --rm tgotwig/ubuntu |
 
 <details>
-  <summary>📃 [WiP] List of commands which should be everywhere, but currently not (click me)</summary>
+  <summary>📃 List of commands which should be everywhere (click me)</summary>
 
   | Command | Note | Sample |
   | :-- | :-- | :-- |
@@ -26,3 +26,24 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
   | starship |  For making the terminal prompt pretty 😊 |  |
   | z | For jumping into previously visited folders. | `z <part-of-folders-path>` |
 </details>
+
+## Implementation status
+
+| Command | Alpine | Node | Ubuntu |
+| :-- | :--: | :--: | :--: |
+| asdf | ❌ | ❌ | ❌ |
+| curl | ✅ | ✅ | ✅ |
+| fish | ✅ | ✅ | ✅ |
+| ip | ✅ | ✅ | ✅ |
+| nc | ✅ | ✅ | ✅ |
+| nmap | ❌ | ❌ | ✅ |
+| nslookup | ✅ | ✅ | ✅ |
+| ping | ✅ | ✅ | ✅ |
+| starship | ✅ | ✅ | ✅ |
+| z | ✅ | ✅ | ✅ |
+
+Commands which look different:
+
+- nc
+- nslookup
+- ping
