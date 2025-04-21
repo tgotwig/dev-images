@@ -18,12 +18,14 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
   | asdf | For installing programming languages. |  |
   | curl |  |  |
   | fish | Bash replacement with lots of auto-completions.  |  |
+  | git |  |  |
   | ip | For getting host IPs. | `ip a` |
   | nc | For chatting or to check if port is open. | `nc -zv <host> <port>` |
   | nmap |  |  |
   | nslookup | For getting IPs from dns name. | `nslookup github.com <alt-dns-server>` |
   | ping |  |  |
   | starship |  For making the terminal prompt pretty 😊 |  |
+  | task | For having a task runner. |  |
   | z | For jumping into previously visited folders. | `z <part-of-folders-path>` |
 </details>
 
@@ -34,12 +36,14 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 | asdf | ❌ | ❌ | ❌ |
 | curl | ✅ | ✅ | ✅ |
 | fish | ✅ | ✅ | ✅ |
+| git | ❌ | ❌ | 🟡 |
 | ip | ✅ | ✅ | ✅ |
 | nc | ✅ | ✅ | ✅ |
 | nmap | ❌ | ❌ | ✅ |
 | nslookup | ✅ | ✅ | ✅ |
 | ping | ✅ | ✅ | ✅ |
 | starship | ✅ | ✅ | ✅ |
+| task | ❌ | ❌ | 🟡 |
 | z | ✅ | ✅ | ✅ |
 
 Commands which look different:
