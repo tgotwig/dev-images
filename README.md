@@ -1,6 +1,6 @@
 # dev-images
 
-A collection of minimal, ready-to-use Docker images with essential CLI tools for developers.
+A collection of minimal, ready-to-use Docker images with essential CLI tools for developers (amd64 and arm64).
 
 <img src="https://github.com/user-attachments/assets/16c25a38-4b6f-47ac-8fc5-5faa28ce573e" width="300">
 
