@@ -17,7 +17,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
   | :-- | :-- | :-- |
   | asdf | For installing programming languages. |  |
   | curl |  |  |
-  | fish | Replacement for bash with lots of auto-completions.  |  |
+  | fish | Bash replacement with lots of auto-completions.  |  |
   | ip | For getting host IPs. | `ip a` |
   | nc | For chatting or to check if port is open. | `nc -zv <host> <port>` |
   | nmap |  |  |
