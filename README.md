@@ -26,6 +26,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
   | ping |  |  |
   | starship |  For making the terminal prompt pretty 😊 |  |
   | task | For having a task runner. |  |
+  | wget | For downloading files. | `wget <url>` |
   | z | For jumping into previously visited folders. | `z <part-of-folders-path>` |
 </details>
 
@@ -33,17 +34,18 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 
 | Command | Alpine | Node | Ubuntu |
 | :-- | :--: | :--: | :--: |
-| asdf | ❌ | ❌ | ❌ |
+| asdf | ❌ | ❌ | ✅ |
 | curl | ✅ | ✅ | ✅ |
 | fish | ✅ | ✅ | ✅ |
-| git | ❌ | ❌ | 🟡 |
+| git | ❌ | ❌ | ✅ |
 | ip | ✅ | ✅ | ✅ |
 | nc | ✅ | ✅ | ✅ |
 | nmap | ❌ | ❌ | ✅ |
 | nslookup | ✅ | ✅ | ✅ |
 | ping | ✅ | ✅ | ✅ |
 | starship | ✅ | ✅ | ✅ |
-| task | ❌ | ❌ | 🟡 |
+| task | ❌ | ❌ | ✅ |
+| wget | ✅ | ✅ | ✅ |
 | z | ✅ | ✅ | ✅ |
 
 Commands which look different:
@@ -51,3 +53,4 @@ Commands which look different:
 - nc
 - nslookup
 - ping
+- wget
