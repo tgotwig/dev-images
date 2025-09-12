@@ -1,0 +1,17 @@
+{
+  "build": {
+    "dockerfile": "../ubuntu/Dockerfile",
+    "context": "../ubuntu"
+  },
+  "runArgs": [
+    "--name",
+    "tgotwig-dev-images"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.minimumContrastRatio": 1
+      }
+    }
+  }
+}
