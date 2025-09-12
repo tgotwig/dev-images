@@ -7,3 +7,6 @@
 [submodule "node"]
 	path = node
 	url = git@github.com:tgotwig/node.git
+[submodule "dotfiles"]
+	path = dotfiles
+	url = git@github.com:tgotwig/dotfiles.git
