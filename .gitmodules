@@ -10,3 +10,6 @@
 [submodule "dotfiles"]
 	path = dotfiles
 	url = git@github.com:tgotwig/dotfiles.git
+[submodule "java"]
+	path = java
+	url = git@github.com:tgotwig/java.git
