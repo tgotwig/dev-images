@@ -4,8 +4,7 @@
     "context": "../ubuntu"
   },
   "runArgs": [
-    "--name",
-    "tgotwig-dev-images",
+    "--name=tgotwig-dev-images",
     "--network=host"
   ],
   "customizations": {
