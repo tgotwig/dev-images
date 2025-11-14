@@ -5,7 +5,8 @@
   },
   "runArgs": [
     "--name",
-    "tgotwig-dev-images"
+    "tgotwig-dev-images",
+    "--network=host"
   ],
   "customizations": {
     "vscode": {
