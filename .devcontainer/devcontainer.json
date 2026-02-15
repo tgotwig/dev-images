@@ -5,7 +5,9 @@
   },
   "runArgs": [
     "--name=tgotwig-dev-images",
-    "--network=host"
+    "--network=host",
+    "-v",
+    "/var/run/docker.sock:/var/run/docker.sock"
   ],
   "customizations": {
     "vscode": {
