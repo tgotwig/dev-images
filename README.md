@@ -16,15 +16,15 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
   | Command | Note | Sample |
   | :-- | :-- | :-- |
   | asdf | For installing programming languages. |  |
-  | cc | For compiling C code. |  |
+  | cc | For compiling C code. | `cc main.c -o main` |
   | curl |  |  |
   | fish | Bash replacement with lots of auto-completions.  |  |
   | git |  |  |
   | ip | For getting host IPs. | `ip a` |
-  | jq |  |  |
-  | less |  |  |
-  | mediainfo |  |  |
-  | micro |  |  |
+  | jq | For querying JSON. | `jq . file.json` |
+  | less | For paging long output. | `less file.txt` |
+  | mediainfo | For inspecting media metadata. | `mediainfo file.mp4` |
+  | micro | Lightweight terminal editor. | `micro file.txt` |
   | nc | For chatting or to check if port is open. | `nc -zv <host> <port>` |
   | nmap |  |  |
   | nslookup | For getting IPs from dns name. | `nslookup github.com <alt-dns-server>` |
@@ -41,22 +41,22 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 | Command | Alpine | Node | Ubuntu |
 | :-- | :--: | :--: | :--: |
 | asdf | ❌ | ❌ | ✅ |
-| cc | ❌ | ❌ | ❌ |
+| cc | ❌ | ❌ | ✅ |
 | curl | ✅ | ✅ | ✅ |
 | fish | ✅ | ✅ | ✅ |
 | git | ❌ | ❌ | ✅ |
 | ip | ✅ | ✅ | ✅ |
-| jq | ❌ | ❌ | ❌ |
-| less | ❌ | ❌ | ❌ |
-| mediainfo | ❌ | ❌ | ❌ |
-| micro | ❌ | ❌ | ❌ |
+| jq | ❌ | ❌ | ✅ |
+| less | ❌ | ❌ | ✅ |
+| mediainfo | ❌ | ❌ | ✅ |
+| micro | ❌ | ❌ | ✅ |
 | nc | ✅ | ✅ | ✅ |
 | nmap | ❌ | ❌ | ✅ |
 | nslookup | ✅ | ✅ | ✅ |
 | ping | ✅ | ✅ | ✅ |
 | starship | ✅ | ✅ | ✅ |
 | task | ❌ | ❌ | ✅ |
-| tree | ❌ | ❌ | ❌ |
+| tree | ❌ | ❌ | ✅ |
 | wget | ✅ | ✅ | ✅ |
 | z | ✅ | ✅ | ✅ |
 
