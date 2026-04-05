@@ -7,7 +7,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 | Image                                               | OS  | CMD |
 | :--                                                 | :-- | --- |
 | [alpine](https://github.com/tgotwig/alpine)         | alpine 3.21 | docker run -it --rm tgotwig/alpine |
-| [node](https://github.com/tgotwig/node) 23.5.0      | alpine 3.21 | docker run -it --rm tgotwig/node fish |
+| [node](https://github.com/tgotwig/node)             | debian 12 (bookworm) | docker run -it --rm tgotwig/node |
 | [ubuntu](https://github.com/tgotwig/ubuntu)         | ubuntu 24.04 | docker run -it --rm tgotwig/ubuntu |
 
 <details>
@@ -52,35 +52,35 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 
 | Command | Alpine | Node | Ubuntu |
 | :-- | :--: | :--: | :--: |
-| asdf | ✅ | ❌ | ✅ |
-| atuin | ✅ | ❌ | ✅ |
-| bat | ✅ | ❌ | ✅ |
-| cc | ✅ | ❌ | ✅ |
+| asdf | ✅ | ✅ | ✅ |
+| atuin | ✅ | ✅ | ✅ |
+| bat | ✅ | ✅ | ✅ |
+| cc | ✅ | ✅ | ✅ |
 | curl | ✅ | ✅ | ✅ |
-| docker | ✅ | ❌ | ✅ |
-| dust | ✅ | ❌ | ✅ |
-| fd | ✅ | ❌ | ✅ |
+| docker | ✅ | ✅ | ✅ |
+| dust | ✅ | ✅ | ✅ |
+| fd | ✅ | ✅ | ✅ |
 | fish | ✅ | ✅ | ✅ |
-| git | ✅ | ❌ | ✅ |
-| gnupg | ✅ | ❌ | ✅ |
+| git | ✅ | ✅ | ✅ |
+| gnupg | ✅ | ✅ | ✅ |
 | ip | ✅ | ✅ | ✅ |
-| jq | ✅ | ❌ | ✅ |
-| less | ✅ | ❌ | ✅ |
-| lsd | ✅ | ❌ | ✅ |
-| mediainfo | ✅ | ❌ | ✅ |
-| micro | ✅ | ❌ | ✅ |
+| jq | ✅ | ✅ | ✅ |
+| less | ✅ | ✅ | ✅ |
+| lsd | ✅ | ✅ | ✅ |
+| mediainfo | ✅ | ✅ | ✅ |
+| micro | ✅ | ✅ | ✅ |
 | nc | ✅ | ✅ | ✅ |
-| nmap | ✅ | ❌ | ✅ |
+| nmap | ✅ | ✅ | ✅ |
 | nslookup | ✅ | ✅ | ✅ |
 | ping | ✅ | ✅ | ✅ |
-| rg | ✅ | ❌ | ✅ |
-| sd | ✅ | ❌ | ✅ |
-| ssh | ✅ | ❌ | ✅ |
+| rg | ✅ | ✅ | ✅ |
+| sd | ✅ | ✅ | ✅ |
+| ssh | ✅ | ✅ | ✅ |
 | starship | ✅ | ✅ | ✅ |
-| stow | ✅ | ❌ | ✅ |
-| task | ✅ | ❌ | ✅ |
-| tree | ✅ | ❌ | ✅ |
-| unzip | ✅ | ❌ | ✅ |
+| stow | ✅ | ✅ | ✅ |
+| task | ✅ | ✅ | ✅ |
+| tree | ✅ | ✅ | ✅ |
+| unzip | ✅ | ✅ | ✅ |
 | wget | ✅ | ✅ | ✅ |
 | z | ✅ | ✅ | ✅ |
 
