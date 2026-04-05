@@ -40,6 +40,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
   | sd | For modern sed. | `sd "foo" "bar" file.txt` |
   | ssh | For remote access. | `ssh user@host` |
   | starship |  For making the terminal prompt pretty 😊 |  |
+  | stow | For managing dotfiles with symlinks. | `stow */` |
   | task | For having a task runner. |  |
   | tree |  | `tree <folder>` |
   | unzip | For extracting zip files. | `unzip archive.zip` |
@@ -76,6 +77,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 | sd | ❌ | ❌ | ✅ |
 | ssh | ❌ | ❌ | ✅ |
 | starship | ✅ | ✅ | ✅ |
+| stow | ❌ | ❌ | ✅ |
 | task | ❌ | ❌ | ✅ |
 | tree | ❌ | ❌ | ✅ |
 | unzip | ❌ | ❌ | ✅ |
