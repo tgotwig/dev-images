@@ -10,3 +10,6 @@
 [submodule "java"]
 	path = java
 	url = git@github.com:tgotwig/java.git
+[submodule "rhel"]
+	path = rhel
+	url = git@github.com:tgotwig/rhel.git

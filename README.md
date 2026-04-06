@@ -8,6 +8,7 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 | :--                                                 | :-- | --- |
 | [alpine](https://github.com/tgotwig/alpine)         | alpine 3.21 | docker run -it --rm tgotwig/alpine |
 | [node](https://github.com/tgotwig/node)             | debian 12 (bookworm) | docker run -it --rm tgotwig/node |
+| [rhel](https://github.com/tgotwig/rhel)             | rhel ubi 9.7 | docker run -it --rm tgotwig/rhel |
 | [ubuntu](https://github.com/tgotwig/ubuntu)         | ubuntu 24.04 | docker run -it --rm tgotwig/ubuntu |
 
 <details>
@@ -50,39 +51,39 @@ A collection of minimal, ready-to-use Docker images with essential CLI tools for
 
 ## Implementation status
 
-| Command | Alpine | Node | Ubuntu |
-| :-- | :--: | :--: | :--: |
-| asdf | ✅ | ✅ | ✅ |
-| atuin | ✅ | ✅ | ✅ |
-| bat | ✅ | ✅ | ✅ |
-| cc | ✅ | ✅ | ✅ |
-| curl | ✅ | ✅ | ✅ |
-| docker | ✅ | ✅ | ✅ |
-| dust | ✅ | ✅ | ✅ |
-| fd | ✅ | ✅ | ✅ |
-| fish | ✅ | ✅ | ✅ |
-| git | ✅ | ✅ | ✅ |
-| gnupg | ✅ | ✅ | ✅ |
-| ip | ✅ | ✅ | ✅ |
-| jq | ✅ | ✅ | ✅ |
-| less | ✅ | ✅ | ✅ |
-| lsd | ✅ | ✅ | ✅ |
-| mediainfo | ✅ | ✅ | ✅ |
-| micro | ✅ | ✅ | ✅ |
-| nc | ✅ | ✅ | ✅ |
-| nmap | ✅ | ✅ | ✅ |
-| nslookup | ✅ | ✅ | ✅ |
-| ping | ✅ | ✅ | ✅ |
-| rg | ✅ | ✅ | ✅ |
-| sd | ✅ | ✅ | ✅ |
-| ssh | ✅ | ✅ | ✅ |
-| starship | ✅ | ✅ | ✅ |
-| stow | ✅ | ✅ | ✅ |
-| task | ✅ | ✅ | ✅ |
-| tree | ✅ | ✅ | ✅ |
-| unzip | ✅ | ✅ | ✅ |
-| wget | ✅ | ✅ | ✅ |
-| z | ✅ | ✅ | ✅ |
+| Command | Alpine | Node | RHEL | Ubuntu |
+| :-- | :--: | :--: | :--: | :--: |
+| asdf | ✅ | ✅ | ✅ | ✅ |
+| atuin | ✅ | ✅ | ✅ | ✅ |
+| bat | ✅ | ✅ | ✅ | ✅ |
+| cc | ✅ | ✅ | ✅ | ✅ |
+| curl | ✅ | ✅ | ✅ | ✅ |
+| docker | ✅ | ✅ | ✅ | ✅ |
+| dust | ✅ | ✅ | ✅ | ✅ |
+| fd | ✅ | ✅ | ✅ | ✅ |
+| fish | ✅ | ✅ | ✅ | ✅ |
+| git | ✅ | ✅ | ✅ | ✅ |
+| gnupg | ✅ | ✅ | ✅ | ✅ |
+| ip | ✅ | ✅ | ✅ | ✅ |
+| jq | ✅ | ✅ | ✅ | ✅ |
+| less | ✅ | ✅ | ✅ | ✅ |
+| lsd | ✅ | ✅ | ✅ | ✅ |
+| mediainfo | ✅ | ✅ | ✅ | ✅ |
+| micro | ✅ | ✅ | ✅ | ✅ |
+| nc | ✅ | ✅ | ✅ | ✅ |
+| nmap | ✅ | ✅ | ✅ | ✅ |
+| nslookup | ✅ | ✅ | ✅ | ✅ |
+| ping | ✅ | ✅ | ✅ | ✅ |
+| rg | ✅ | ✅ | ✅ | ✅ |
+| sd | ✅ | ✅ | ✅ | ✅ |
+| ssh | ✅ | ✅ | ✅ | ✅ |
+| starship | ✅ | ✅ | ✅ | ✅ |
+| stow | ✅ | ✅ | ✅ | ✅ |
+| task | ✅ | ✅ | ✅ | ✅ |
+| tree | ✅ | ✅ | ✅ | ✅ |
+| unzip | ✅ | ✅ | ✅ | ✅ |
+| wget | ✅ | ✅ | ✅ | ✅ |
+| z | ✅ | ✅ | ✅ | ✅ |
 
 Commands which look different:
 
